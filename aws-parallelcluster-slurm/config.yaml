@@ -10,7 +10,7 @@ cluster:
     --partition={resources.partition}
 default-resources:
   - time=1440
-  - partition='compute-small'
+  - partition='queue-1'
   - tmpdir='/scratch'
 jobs: 150
 latency-wait: 120
